@@ -1,11 +1,14 @@
 var blinker = $( "#indicator" );
 
-$( document ).ready(function () {
-    var i = 0;
-    while ( i < 100 ) {
-        $("#indicator").hide(0).delay(200).show(0);
-        i++;
-    };
+function cursorAnimation() {
+    $('#indicator').animate({
+        opacity: 0
+    }, 'fast', 'swing').animate({
+        opacity: 1
+    }, 'fast', 'swing');
+}
+
+$(document).ready(function() {
+    setInterval ('cursorAnimation()', 900);
+    
 });
-
-
