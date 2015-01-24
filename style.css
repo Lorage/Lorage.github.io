@@ -51,7 +51,7 @@ table {
 /* --------------------------------------------- */
 
 body {
-    font-family: Consolas,monaco,monospace;
+    font-family: Candara,Calibri,Segoe,"Segoe UI",Optima,Arial,sans-serif;
     font-weight: 300;
 }
 
@@ -81,10 +81,45 @@ body {
 }
 
 #sectionOne {
-    height: 800px;
+    height: 600px;
     background-color: white;
 }
 
+#sectionOne > .row > h1 {
+    font-size: 64px;
+    color: #4A0093;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+#aboutMe {
+    width: 450px;
+    margin-top: 30px;
+}
+
+#imageBackground {
+    height: 180px;
+    width: 160px;
+    background-color: #DADADA;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#imageBackground > img {
+    height: 170px;
+    width: 150px;
+    
+}
+
+/*
+#titleLine {
+    width: 460px;
+    height: 2px;
+    background-color: white;
+    margin-left: 29%;
+    margin-top: 20px;
+}
+*/
 
 /*---------- Media Queries --------*/
 
