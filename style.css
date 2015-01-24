@@ -108,7 +108,7 @@ body {
 #imageBackground > img {
     height: 180px;
     width: 170px;
-    background-color: #DADADA;
+    background-color: #EFEFEF;
     padding: 10px;
     margin-top: 10px;
     
@@ -126,11 +126,11 @@ body {
     font-size: 30px;
     margin-top: 30px;
     margin-bottom: 25px;
+    font-weight: 600;
 }
 
 #interests > .row > p {
-    margin-top: 7px;
-    margin-bottom: 7px;
+    margin-top: 15px;
     margin-left: 1%;
 }
 
@@ -144,6 +144,26 @@ body {
 
 #interests .row:nth-child(4) {
     margin-left: 30%;
+}
+
+#sectionTwo {
+    height: 800px;
+    background-color: #EFEFEF;
+}
+
+#sectionTwo > .row > h1 {
+    font-size: 64px;
+    color: #4A0093;
+    font-weight: 600;
+    margin-top: 80px;
+}
+
+#experienceLine {
+    width: 320px;
+    height: 2px;
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 35%;
 }
 
 /*
