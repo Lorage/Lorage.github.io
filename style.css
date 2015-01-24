@@ -93,22 +93,57 @@ body {
 }
 
 #aboutMe {
-    width: 450px;
-    margin-top: 30px;
+    width: 540px;
+    margin-top: 40px;
 }
 
 #imageBackground {
     height: 180px;
     width: 160px;
-    background-color: #DADADA;
+    /* background-color: #DADADA; */
     margin-top: 20px;
     margin-left: 20px;
 }
 
 #imageBackground > img {
-    height: 170px;
-    width: 150px;
+    height: 180px;
+    width: 170px;
+    background-color: #DADADA;
+    padding: 10px;
+    margin-top: 10px;
     
+}
+
+#aboutLine {
+    width: 320px;
+    height: 2px;
+    background-color: black;
+    margin-top: 10px;
+}
+
+#interests > .row > h3 {
+    color: #4A0093;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+#interests > .row > p {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 1%;
+}
+
+#interests .row:nth-child(2) {
+    margin-left: 30%;
+}
+
+#interests .row:nth-child(3) {
+    margin-left: 30%;
+}
+
+#interests .row:nth-child(4) {
+    margin-left: 30%;
 }
 
 /*
