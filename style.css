@@ -98,10 +98,11 @@ body {
     }
 }
 
-    
+/* XL rules */
 @media (min-width: 1550px) {
-    margin-top: 40%;
+    #textDiv > h1 {
+    margin-top: 15%;
     
-    
+   }
 }
 
