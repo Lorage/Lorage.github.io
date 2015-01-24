@@ -80,7 +80,10 @@ body {
     background-color: white;
 }
 
-
+#sectionOne {
+    height: 800px;
+    background-color: white;
+}
 
 
 /*---------- Media Queries --------*/
@@ -92,9 +95,12 @@ body {
     font-size: 44px;
     font-weight: 600;
     margin-top: 60%;
+    }
 }
+
     
-    
+@media (min-width: 1550px) {
+    margin-top: 40%;
     
     
 }
