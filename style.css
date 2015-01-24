@@ -86,10 +86,10 @@ body {
 /*---------- Media Queries --------*/
 
 /* XS rules */
-@media (max-width: 650px) {
+@media (max-width: 665px) {
     
     #textDiv > h1 {
-    font-size: 48px;
+    font-size: 44px;
     font-weight: 600;
     margin-top: 60%;
 }
