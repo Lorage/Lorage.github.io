@@ -55,7 +55,6 @@ body {
     font-weight: 300;
 }
 
-
 #bodyContainer {
     height: 1000px;
     padding: 0px;
@@ -72,33 +71,30 @@ body {
     color: white;
     font-size: 64px;
     font-weight: 600;
+    margin-top: 25%;
 }
+
+.row > #indicator {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+}
+
+
+
+
+/*---------- Media Queries --------*/
 
 /* XS rules */
 @media (max-width: 650px) {
-    #textDiv > h1 {
     
+    #textDiv > h1 {
     font-size: 40px;
     font-weight: 400;
 }
     
     
+    
+    
 }
-
-/*
-#textDiv {
-    height: 400px;
-    width: 100%;
-}
-
-
-#textDiv > #indicator {
-    width: 30px;
-    height: 4px;
-    background-color: white;
-    position: relative;
-    right: -37%;
-}
-*/
-
 
