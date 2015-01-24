@@ -130,7 +130,8 @@ body {
 }
 
 #interests > .row > p {
-    margin-top: 15px;
+    margin-top: 7px;
+    margin-bottom: 7px;
     margin-left: 1%;
 }
 
@@ -155,16 +156,9 @@ body {
     font-size: 64px;
     color: #4A0093;
     font-weight: 600;
-    margin-top: 80px;
+    margin-top: 0px;
 }
 
-#experienceLine {
-    width: 320px;
-    height: 2px;
-    background-color: black;
-    margin-top: 10px;
-    margin-left: 35%;
-}
 
 /*
 #titleLine {
