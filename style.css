@@ -93,7 +93,7 @@ body {
 }
 
 #aboutMe {
-    width: 540px;
+    width: 520px;
     margin-top: 40px;
 }
 
@@ -146,7 +146,6 @@ body {
     margin-left: 30%;
 }
 
-
 #sectionTwo {
     height: 800px;
     background-color: #EFEFEF;
@@ -156,7 +155,7 @@ body {
     font-size: 64px;
     color: #4A0093;
     font-weight: 600;
-    margin-top: 0px;
+    margin-top: 40px;
 }
 
 
