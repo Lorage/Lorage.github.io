@@ -158,7 +158,6 @@ body p {
 */
 
 #sectionTwo {
-    height: 800px;
     background-color: #EFEFEF;
     margin-top: 10px;
 }
@@ -167,9 +166,50 @@ body p {
     font-size: 64px;
     color: #4A0093;
     font-weight: 600;
-    margin-top: 40px;
+    margin-top: 70px;
 }
 
+#sectionTwo > .row > h2 {
+    font-size: 44px;
+    color: #4A0093;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+#workOne {
+    margin-top: 40px;
+    
+}
+
+#workOne > .row > h3, #workTwo > .row > h3, .jobTitle {
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+#workTwo {
+    margin-top: 30px;
+    
+}
+
+#workone > div:first-child {
+    margin-bottom: 20px;
+}
+
+.rowOne, .rowTwo {
+    margin-bottom: 10px;
+}
+
+#sectionThree {
+    height: 800px;
+    background-color: white;
+}
+
+#sectionThree > .row > h1 {
+    font-size: 64px;
+    color: #4A0093;
+    font-weight: 600;
+    margin-top: 70px;
+}
 
 /*
 #titleLine {
