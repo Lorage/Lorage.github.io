@@ -81,7 +81,7 @@ body {
 }
 
 #sectionOne {
-    height: 600px;
+    
     background-color: white;
 }
 
@@ -93,7 +93,7 @@ body {
 }
 
 #aboutMe {
-    width: 520px;
+    
     margin-top: 40px;
 }
 
@@ -108,17 +108,21 @@ body {
 #imageBackground > img {
     height: 180px;
     width: 170px;
-    background-color: #DADADA;
+    background-color: #EFEFEF;
     padding: 10px;
     margin-top: 10px;
     
 }
 
 #aboutLine {
-    width: 320px;
+    width: 25%;
     height: 2px;
     background-color: black;
     margin-top: 10px;
+}
+
+#interests {
+    margin-bottom: 30px;
 }
 
 #interests > .row > h3 {
@@ -149,6 +153,7 @@ body {
 #sectionTwo {
     height: 800px;
     background-color: #EFEFEF;
+    margin-top: 10px;
 }
 
 #sectionTwo > .row > h1 {
@@ -187,5 +192,13 @@ body {
     margin-top: 15%;
     
    }
+}
+
+@media (max-width: 1010px) {
+    
+    #imageBackground {
+    display: none;   
+    }
+    
 }
 
