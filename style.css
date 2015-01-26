@@ -420,9 +420,55 @@ body p {
 @media (max-width: 660px){
     
     .textBlock {
-    display: none;   
+        display: none;   
     }
     
+    #workOne > div.row.rowOne > h3 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    #workOne > div.row.rowOne > p {
+        width: 100%;
+        text-align: center;
+        font-size: .9em;
+    }
+    
+    #workOne > div:nth-child(2) > p.col-xs-3.col-sm-offset-2.col-md-offset-3 {
+        width: 100%;
+        text-align: center;    
+    }
+    
+    #workTwo > div.row.rowTwo > h3 {
+        width: 100%;
+        text-align: center; 
+        margin-bottom: 10px;
+    }
+        
+    #workTwo > div.row.rowTwo > p {
+        width: 100%;
+        text-align: center;
+        font-size: .9em;
+    }
+    
+    #workTwo > div:nth-child(2) > p.col-xs-3.col-sm-offset-2.col-md-offset-3 {
+        width: 100%;
+        text-align: center;
+        font-size: .9em;
+    }
+    
+    #sectionTwo > div:nth-child(2) > h2 {
+        font-size: 32px;    
+    }
+    
+    #sectionTwo > div:nth-child(5) > h2 {
+        font-size: 32px; 
+    }
+    
+    #interests > div:nth-child(2) > p:nth-child(2) {
+        padding-left: 7px;    
+    }
 }
 
 
