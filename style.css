@@ -472,6 +472,9 @@ body p {
         padding-left: 7px;    
     }
     
+    #aboutMe {
+        padding-left: 0px;    
+    }
     
 }
 
