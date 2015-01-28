@@ -71,6 +71,11 @@ body p {
     background: no-repeat center right fixed url("galaxies-HD-purpled.png");
 }
 
+#spaceContainer > div > p {
+    color: white;
+    margin-top: 30px;
+}
+
 #textDiv > h1 {
     color: white;
     font-size: 64px;
