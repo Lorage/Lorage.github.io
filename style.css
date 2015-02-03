@@ -51,7 +51,7 @@ table {
 /* --------------------------------------------- */
 
 body {
-    font-family: Candara,Calibri,Segoe,"Segoe UI",Optima,Arial,sans-serif;
+    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
     font-weight: 300;
 }
 
@@ -120,7 +120,7 @@ body p {
     width: 205px;
     background-color: #EFEFEF;
     padding: 10px;
-    margin-bottom: -20px;
+    margin-bottom: 20px;
     
 }
 
