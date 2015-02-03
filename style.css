@@ -102,7 +102,7 @@ body p {
 }
 
 #aboutMe {
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: 200;
     margin-top: 40px;
 }
@@ -111,16 +111,16 @@ body p {
     height: 180px;
     width: 160px;
     /* background-color: #DADADA; */
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 20px;
 }
 
 #imageBackground > img {
-    height: 200px;
-    width: 190px;
+    height: 215px;
+    width: 205px;
     background-color: #EFEFEF;
     padding: 10px;
-    margin-bottom: -30px;
+    margin-bottom: -20px;
     
 }
 
@@ -175,7 +175,7 @@ body p {
 }
 
 #sectionTwo > .row > h2 {
-    font-size: 44px;
+    font-size: 48px;
     color: #4A0093;
     font-weight: 600;
     margin-top: 50px;
@@ -188,7 +188,7 @@ body p {
 
 #workOne > .row > h3, #workTwo > .row > h3, .jobTitle {
     font-weight: 600;
-    font-size: 1.1em;
+    font-size: 1.5em;
 }
 
 #workTwo {
@@ -219,9 +219,10 @@ body p {
 .percentBar {
     width: 130px;
     height: 22px;
-    border: 3px solid black;
+    border: 2px solid black;
     display: inline-block;
     padding: 0px;
+    float: right;
 }
 
 .skillsDivs {
@@ -361,6 +362,18 @@ body p {
     background-color: #4A0093;
 }
 
+.listItems:hover {
+    border-radius: 3px;
+    background-color: #EFEFEF;
+
+}
+
+.percentBar:hover {
+    width: 155px;
+    margin-left: 0px;
+}
+
+
 /*---- End Skills and Tools percentages ----*/
 
 /*
@@ -404,6 +417,24 @@ body p {
     margin-top: 15%;
     
    }
+}
+
+@media (min-width: 1000px) {
+    .textBlock {
+        font-size: 1.3em;    
+    }
+    
+}
+
+@media (min-width: 800px) {
+    .skillsDivs {
+        width: 330px;    
+    }
+    
+    .percentBar {
+            
+    }
+    
 }
 
 @media (max-width: 1010px) {
