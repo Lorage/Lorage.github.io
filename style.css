@@ -114,6 +114,7 @@ body p {
     /* background-color: #DADADA; */
     margin-top: 50px;
     margin-left: 15px;
+    margin-bottom: 20px;
 }
 
 #imageBackground > img {
@@ -121,7 +122,6 @@ body p {
     width: 230px;
     background-color: #EFEFEF;
     padding: 10px;
-    margin-bottom: 20px;
     
 }
 
