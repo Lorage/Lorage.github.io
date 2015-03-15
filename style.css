@@ -68,7 +68,7 @@ body p {
 #spaceContainer {
     width: 100%;
     height: 75%;
-    background: no-repeat center right fixed url("galaxies-HD-purpled.png");
+    background: no-repeat center right fixed url("galaxies-HD-purpled-reduced.png");
 }
 
 #spaceContainer > div > p {
@@ -99,6 +99,21 @@ body p {
     color: #4A0093;
     font-weight: 600;
     margin-top: 100px;
+    padding-bottom: 15px;
+}
+
+#sectionOne > div:nth-child(1) > h1::after {
+    content: "";
+    display: block;
+    position: relative;
+    width: 40%;
+    height: 2px;
+    border-radius: 60%;
+    background-color: black;
+    opacity: 0.6;
+    bottom: -20px;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 #aboutMe {
@@ -378,6 +393,12 @@ body p {
     line-height: 1.3em;
 }
 
+#sectionFour {
+    height: 400px;
+    width: 100%;
+    background-color: grey;
+    
+}
 
 /*---- End Skills and Tools percentages ----*/
 
